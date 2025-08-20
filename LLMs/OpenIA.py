@@ -6,4 +6,5 @@ response = client.responses.create(
     input="Write a one-sentence bedtime story about a unicorn."
 )
 
+#comment
 print(response.output_text)
